@@ -1,3 +1,4 @@
+
 @import url('./reset.css');
 
 :root {
@@ -37,7 +38,7 @@ img {
   background-color: rgba(46, 47, 66, 0.8);
 }
 
-.form-btn {
+.feedback-form button {
   border-radius: 8px;
   padding: 8px 16px;
   width: 86px;
@@ -52,8 +53,7 @@ img {
   color: #fff;
   margin-bottom: 0;
 }
-
-.form-btn:hover {
+.feedback-form button:hover {
   background-color: #6c8cff;
 }
 
@@ -61,7 +61,7 @@ img {
   max-width: 408px;
 }
 
-.form-label {
+.feedback-form label {
   display: block;
   margin-bottom: 8px;
   font-family: 'Montserrat', sans-serif;
@@ -72,8 +72,8 @@ img {
   color: #2e2f42;
 }
 
-.form-text,
-.form-msg {
+.feedback-form label input,
+.feedback-form label textarea {
   width: 100%;
   padding: 8px;
   border: 1px solid #808080;
